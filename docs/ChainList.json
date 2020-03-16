@@ -7439,6 +7439,81 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0x5d28bc06e6f0c45405abfe77bd77236c767f9bd9d044ae2d954a415a2b4823e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "_id",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogBuyArticle",
+          "type": "event"
+        },
+        "0xe2ebb0c522a8b90a93f45a5dfd3c0e0516b81519fdf199efe51c474642fe8cec": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "_id",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogSellArticle",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x737Dd34e79EACeE60A3aBd31a00087Fed99688a4",
+      "transactionHash": "0x84808afb6b3403eb80ea5e23b283378affa425d81473f69688675857b15dd090"
+    },
     "5790": {
       "events": {
         "0x5d28bc06e6f0c45405abfe77bd77236c767f9bd9d044ae2d954a415a2b4823e0": {
@@ -7516,7 +7591,7 @@
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-03-15T09:01:17.823Z",
+  "updatedAt": "2020-03-16T02:41:59.561Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
